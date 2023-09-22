@@ -17,8 +17,10 @@
 
 
 .loading{
-    width: 100px;
-    height: 50px;
+    /* width: 100px;
+    height: 50px; */
+    width: max-content;
+    height:max-content;
     font-size: 30px;
     /* background-color: aquamarine; */
     position: absolute;
@@ -30,16 +32,17 @@
 }
 
 .progress{
-    width: 10%;
+    width: 0%;
     height: 100%;
     background-color: limegreen;
     border-radius: 30px;
-    animation: move 3s linear;
+    /* animation: move 3s linear; */
     
 }
 
-@keyframes move{
+/* @keyframes move{
     to{
         width: 100%;
+        background-color: red;
     }
-}
+} */
